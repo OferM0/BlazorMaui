@@ -1,0 +1,7 @@
+﻿@inherits FolderAndFilePicker.Core.Components.SaveFile.SaveFileBase
+
+<h3>Save File</h3>
+
+<input @bind-value="@Text" />
+<button class="btn btn-primary" @onclick="SaveFileAsync">Save File</button>
+<p>@Result</p>

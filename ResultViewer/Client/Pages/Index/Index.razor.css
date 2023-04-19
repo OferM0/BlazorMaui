@@ -1,0 +1,35 @@
+﻿.main-container {
+    height: 84vh;
+    width: 100%;
+    background: white;
+    text-align: center;
+    font-size:26px;
+    color:white;
+}
+
+.first-row {
+    padding: 0 0.3em;
+}
+
+.orange-row-item {
+    width: 100%;
+    margin: 0.3em 0.3em;
+    background-color: darkorange;
+}
+
+.azure-main-container {
+    background-color: lightseagreen;
+    margin: 0 0 0.3em 0;
+    border-radius: 5px;
+}
+
+.pink-sub-container {
+    margin: 0 0 0.2em 0;
+}
+
+.pink-item {
+    background: deeppink;
+    width: 100%;
+    margin: 0 0 0 0.3em;
+    border-radius:5px;
+}

@@ -1,0 +1,17 @@
+﻿@inherits BlazorMauiStorage.Core.Components.Storage.StorageBase
+
+<h1>Settings</h1>
+
+<div>
+    <label>
+        <InputCheckbox @bind-Value="sendNotifications" /> Send notifications
+    </label>
+
+    <br />
+
+    <button @onclick="SaveSettings">Save</button>
+</div>
+
+@code {
+
+}

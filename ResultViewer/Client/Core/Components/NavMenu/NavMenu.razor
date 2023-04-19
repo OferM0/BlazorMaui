@@ -1,0 +1,23 @@
+﻿@using ResultViewer.Client.Core.Constants;
+
+@inherits ResultViewer.Client.Core.Components.NavMenu.NavMenuBase;
+
+<div class="nav-container rv-flex-h-stack">
+    <nav class="rv-flex-h-stack rv-flex-align-center">
+        <div class="nav-item">
+            <NavLink>
+                <img @onclick="OpenFileDialog" class="navbar-icon" src="@Icons.OpenFile" />
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <NavLink>
+                <img class="navbar-icon" src="@Icons.Save" />
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <NavLink href="fetchdata">
+                <img class="navbar-icon" src="@Icons.Print" />
+            </NavLink>
+        </div>
+    </nav>
+</div>

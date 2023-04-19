@@ -1,0 +1,19 @@
+﻿@inherits FolderAndFilePicker.Core.Components.PickFile.PickFileBase
+
+<h3>Pick Files</h3>
+
+<button class="btn btn-primary" @onclick="PickImage">Pick Image</button>
+<img src="@imageSrc" />
+
+<button class="btn btn-primary" @onclick="PickFiles">Pick Files</button>
+
+@if (pickedFiles.Count > 0)
+{
+        <h4>You picked the following files:</h4>
+        <ul>
+            @foreach (var file in pickedFiles)
+            {
+                <li>@file.Name - @file.Path - @file.Type</li>
+            }
+        </ul>
+}

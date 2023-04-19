@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "seYDsze0gP4rEBMgDzERer4xFENG7Pd4+nSDL+yPFlw=",
+  "Source": "RazorLibrary",
+  "BasePath": "_content/RazorLibrary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorLibrary\\wwwroot",
+      "Source": "RazorLibrary",
+      "ContentRoot": "C:\\Users\\oferm\\source\\repos\\C learning\\תקופת היזמות\\BlazorMaui\\BlazorMauiIntro\\RazorLibrary\\wwwroot\\",
+      "BasePath": "_content/RazorLibrary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

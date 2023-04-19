@@ -1,0 +1,7 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/flex.css",
+    "inputFile": "wwwroot/css/flex.scss",
+    "minify": {"enabled": false}
+  }
+]

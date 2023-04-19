@@ -1,0 +1,18 @@
+﻿@inherits FolderAndFilePicker.Core.Components.PickFolder.PickFolderBase
+
+<h3>Pick Folders</h3>
+
+<div>
+    <button class="btn btn-primary" @onclick="OpenFolderPicker">Pick Folder</button>
+</div>
+
+@if (pickedFolders.Count > 0)
+{
+    <h4>You picked the following folders:</h4>
+    <ul>
+        @foreach (var folder in pickedFolders)
+        {
+            <li>Name: @folder.Name, Path: @folder.Path</li>
+        }
+    </ul>
+}

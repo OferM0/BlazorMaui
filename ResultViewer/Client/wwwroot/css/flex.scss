@@ -1,0 +1,220 @@
+﻿@mixin flex($values) {
+    -webkit-box-flex: $values;
+    -moz-box-flex: $values;
+    -webkit-flex: $values;
+    -ms-flex: $values;
+    flex: $values;
+}
+
+.rv-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.rv-flex-column {
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.rv-flex-column-reverse {
+    -ms-flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+.rv-flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.rv-flex-row {
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.rv-flex-row-nowrap {
+    -ms-flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+.rv-flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.rv-flex-v-stack {
+    @extend .rv-flex;
+    @extend .rv-flex-column;
+    height: 100%;
+}
+
+.rv-flex-v-stack-reverse {
+    @extend .rv-flex;
+    @extend .rv-flex-column-reverse;
+    height: 100%;
+}
+
+.rv-flex-h-stack {
+    @extend .rv-flex;
+    @extend .rv-flex-row;
+    width: 100%;
+}
+
+.rv-flex-row-1 {
+    @include flex(1 1 0%);
+}
+
+.rv-flex-row-2 {
+    @include flex(2 1 0%);
+}
+
+.rv-flex-row-3 {
+    @include flex(3 1 0%);
+}
+
+.rv-flex-wrap {
+    @extend .rv-flex;
+    height: auto;
+    width: auto;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.rv-flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.rv-flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rv-flex-align-items-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.rv-flex-justify-content-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rv-flex-align-center {
+    align-items: center;
+}
+
+.rv-flex-align-self-start {
+    align-self: flex-start;
+}
+
+.rv-flex-align-self-center {
+    align-self: center;
+}
+
+.rv-flex-justify-center {
+    justify-content: center;
+}
+
+.rv-flex-justify-space-around {
+    justify-content: space-around;
+}
+
+.rv-flex-justify-space-between {
+    justify-content: space-between;
+}
+
+.rv-flex-justify-space-evenly {
+    justify-content: space-evenly;
+}
+
+.rv-flex-col {
+    @extend .rv-flex;
+    overflow-x: auto;
+}
+
+.rv-flex-col-0-auto {
+    @include flex(0 1 auto);
+}
+
+.rv-flex-col-1 {
+    @include flex(1 1 100%);
+}
+
+.rv-flex-col-2 {
+    @include flex(2 1 100%);
+}
+
+.rv-flex-col-3 {
+    @include flex(3 1 100%);
+}
+
+.rv-flex-equal {
+    flex-basis: 100%;
+    min-width: 0;
+}
+
+.rv-flex-grow {
+    flex-grow: 1;
+}
+
+.rv-flex-shrink {
+    flex-shrink: 1;
+}
+
+.rv-flex-auto {
+    flex: auto;
+}
+
+.rv-flex-70 {
+    @include flex(0 0 70%);
+}
+
+.rv-flex-60 {
+    @include flex(0 0 60%);
+}
+
+.rv-flex-50 {
+    @include flex(0 0 50%);
+}
+
+.rv-flex-45 {
+    @include flex(0 0 45%);
+}
+
+.rv-flex-40 {
+    @include flex(0 0 40%);
+}
+
+.rv-flex-30 {
+    @include flex(0 0 30%);
+}
+
+.rv-flex-25 {
+    @include flex(0 0 25%);
+}
+
+.rv-flex-20 {
+    @include flex(0 0 20%);
+}
+
+.rv-flex-15 {
+    @include flex(0 0 15%);
+}
+
+.rv-flex-10 {
+    @include flex(0 0 10%);
+}
+
+.rv-flex-33 {
+    @include flex(0 0 calc(100% / 3));
+}
