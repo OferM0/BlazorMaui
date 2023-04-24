@@ -29,25 +29,29 @@
     <AppXManifest Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-19T09:25:25.261</Modified>
+      <Modified>2023-04-20T08:00:09.578</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-19T09:25:24.895</Modified>
+      <Modified>2023-04-20T07:59:33.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ChartJS.runtimeconfig.json">
       <PackagePath>ChartJS.runtimeconfig.json</PackagePath>
-      <Modified>2023-04-19T09:06:37.337</Modified>
+      <Modified>2023-04-19T22:36:22.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ChartJS.dll">
       <PackagePath>ChartJS.dll</PackagePath>
-      <Modified>2023-04-19T09:25:24.279</Modified>
+      <Modified>2023-04-20T07:59:32.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ChartJS.exe</PackagePath>
-      <Modified>2023-04-19T09:25:24.299</Modified>
+      <Modified>2023-04-20T07:59:32.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\appsettings.json">
+      <PackagePath>appsettings.json</PackagePath>
+      <Modified>2023-04-19T22:19:01.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.2\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -809,6 +813,10 @@
       <PackagePath>ChartJs.Blazor.dll</PackagePath>
       <Modified>2021-01-11T07:54:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\dapper\2.0.123\lib\net5.0\Dapper.dll">
+      <PackagePath>Dapper.dll</PackagePath>
+      <Modified>2021-11-03T14:07:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.aspnetcore.authorization\7.0.0\lib\net7.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
       <Modified>2022-10-19T06:09:04.000</Modified>
@@ -845,9 +853,9 @@
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
       <Modified>2022-10-18T16:15:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.extensions.configuration.binder\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Binder.dll">
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.extensions.configuration.binder\7.0.4\lib\net7.0\Microsoft.Extensions.Configuration.Binder.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
-      <Modified>2022-10-18T16:15:20.000</Modified>
+      <Modified>2023-02-16T00:40:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.extensions.configuration.fileextensions\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.FileExtensions.dll</PackagePath>
@@ -981,6 +989,10 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2019-11-09T00:56:44.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\system.data.sqlclient\4.8.5\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>System.Data.SqlClient.dll</PackagePath>
+      <Modified>2022-10-17T23:26:08.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\system.io.pipelines\7.0.0\lib\net7.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2022-10-18T16:15:28.000</Modified>
@@ -993,9 +1005,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
+      <PackagePath>sni.dll</PackagePath>
+      <Modified>2017-07-12T11:24:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ChartJS.deps.json">
       <PackagePath>ChartJS.deps.json</PackagePath>
-      <Modified>2023-04-19T09:25:25.146</Modified>
+      <Modified>2023-04-20T08:00:09.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.52\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

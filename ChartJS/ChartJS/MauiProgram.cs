@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using ChartJS.Data;
+using Microsoft.Extensions.Configuration;
+using System.Reflection;
 
 namespace ChartJS;
 
@@ -23,7 +25,13 @@ public static class MauiProgram
 #endif
 
 		builder.Services.AddSingleton<WeatherForecastService>();
+        builder.Services.AddSingleton<ISuperHeroService, SuperHeroService>();
 
-		return builder.Build();
+		//for configuration of appsettings.json
+		using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ChartJS.appsettings.json");
+		var config = new ConfigurationBuilder().AddJsonStream(stream).Build();
+		builder.Configuration.AddConfiguration(config);
+
+        return builder.Build();
 	}
 }

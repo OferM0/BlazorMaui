@@ -352,3 +352,7 @@ C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJ
 C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\appsettings.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Dapper.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Data.SqlClient.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\sni.dll

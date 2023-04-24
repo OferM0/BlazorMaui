@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ChartJS.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\appsettings.json">
+      <PackagePath>appsettings.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.2\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -607,6 +610,9 @@
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\chartjs.blazor.fork\2.0.2\lib\netstandard2.1\ChartJs.Blazor.dll">
       <PackagePath>ChartJs.Blazor.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\dapper\2.0.123\lib\net5.0\Dapper.dll">
+      <PackagePath>Dapper.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.aspnetcore.authorization\7.0.0\lib\net7.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
     </AppxPackagedFile>
@@ -634,7 +640,7 @@
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.extensions.configuration.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.extensions.configuration.binder\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Binder.dll">
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.extensions.configuration.binder\7.0.4\lib\net7.0\Microsoft.Extensions.Configuration.Binder.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.extensions.configuration.fileextensions\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll">
@@ -736,6 +742,9 @@
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\system.data.sqlclient\4.8.5\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\system.io.pipelines\7.0.0\lib\net7.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
     </AppxPackagedFile>
@@ -744,6 +753,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\microsoft.windowsappsdk\1.2.221109.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\oferm\.nuget\packages\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
+      <PackagePath>sni.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oferm\source\repos\C learning\תקופת היזמות\BlazorMaui\ChartJS\ChartJS\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ChartJS.deps.json">
       <PackagePath>ChartJS.deps.json</PackagePath>
